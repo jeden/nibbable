@@ -1,0 +1,22 @@
+{
+  "name": "nibbable",
+  "version": "0.1.0",
+  "summary": "A short description of nibbable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jeden/nibbable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jeden": "jeden@elapsus.com"
+  },
+  "source": {
+    "git": "https://github.com/jeden/nibbable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "nibbable/Classes/**/*"
+}

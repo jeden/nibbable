@@ -1,0 +1,16 @@
+PODS:
+  - nibbable (0.1.0)
+
+DEPENDENCIES:
+  - nibbable (from `../`)
+
+EXTERNAL SOURCES:
+  nibbable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  nibbable: 931d06553c19e077f6764b85e272ec963281f804
+
+PODFILE CHECKSUM: 00e4d9e3328607eb8c6a8a56896b89ab45c90126
+
+COCOAPODS: 1.3.1
