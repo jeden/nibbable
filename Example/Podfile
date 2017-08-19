@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'nibbable_Example' do
+  pod 'nibbable', :path => '../'
+
+  target 'nibbable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
