@@ -47,6 +47,7 @@ extension UIView : LifecycleableView {
 			view.viewWillDisappear()
 		}
 	}
+
 	@objc open dynamic func viewDidDisappear() {
 		for view in self.lifecycleableViews {
 			view.viewDidDisappear()
