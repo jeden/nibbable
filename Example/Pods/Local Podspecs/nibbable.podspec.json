@@ -1,7 +1,7 @@
 {
-  "name": "nibbable",
+  "name": "Nibbable",
   "version": "0.1.0",
-  "summary": "A short description of nibbable.",
+  "summary": "A short description of Nibbable.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jeden/nibbable",
   "license": {
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "nibbable/Classes/**/*"
+  "source_files": "Nibbable/Classes/**/*"
 }

@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## nibbable
+## Nibbable
 
 Copyright (c) 2017 jeden <jeden@elapsus.com>
 

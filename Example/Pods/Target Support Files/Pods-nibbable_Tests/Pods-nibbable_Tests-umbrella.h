@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_nibbable_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_nibbable_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_Nibbable_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Nibbable_TestsVersionString[];
 

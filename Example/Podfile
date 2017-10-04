@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'nibbable_Example' do
-  pod 'nibbable', :path => '../'
+target 'Nibbable_Example' do
+  pod 'Nibbable', :path => '../'
 
-  target 'nibbable_Tests' do
+  target 'Nibbable_Tests' do
     inherit! :search_paths
 
     

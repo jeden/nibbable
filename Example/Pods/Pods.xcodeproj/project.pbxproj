@@ -7,166 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28EC1A199584C92EAB7558226F5B8F09 /* Pods-nibbable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5D19A55ABB2C728E5E3AC9181D7C8 /* Pods-nibbable_Tests-dummy.m */; };
-		36AB712E14E15657AE0EA23681C6EDDC /* nibbable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAA649EBADE4964F34A45D6CD713B27 /* nibbable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		423375F9C34A4C26354C1C1DDE317810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		52551EEE958EF12F2A28CE7D46C5891F /* nibbable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0BDB8302E3209D26FDA1039A1BAF8 /* nibbable-dummy.m */; };
-		5793AEB655047EBE70D701B93660B5D4 /* Pods-nibbable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB9790CF8CC143F933C0402BC231DF6 /* Pods-nibbable_Example-dummy.m */; };
-		78A32605ECCC7AD65E2D9BB0BA44CC38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AA2472F699F037CE8BB484AA04FD3FF7 /* Pods-nibbable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E2E961D952BAE000E67A186AE17BE6 /* Pods-nibbable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D45637CD6AD26ECEF51E9E2FB84239F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EB69C668BC76DAC730F4BA5D57CE4B94 /* Pods-nibbable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7427AE335D615067030990221CE6CA9 /* Pods-nibbable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F4842ABFEC0011CE244ED9B70AE551B /* Pods-Nibbable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 610F24499FE9A5DD49E570CD76C7CFC1 /* Pods-Nibbable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B6C82484B6FB40C92B392E10EF7ADEC /* Pods-Nibbable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B854B31B52CE7F0A484CF1DD76D30F5 /* Pods-Nibbable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DE060CD691656654AF3027C390E3B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F048C18B60B980E6BCFAC7CB65D1ABC /* Pods-Nibbable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831F0509C4BA33FE086A44A7E18CC55A /* Pods-Nibbable_Tests-dummy.m */; };
+		41C5B1DD54039178E918FF2ED9F606D0 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8BD103BE3F47BAFC689ECCFEB0CB3 /* NibView.swift */; };
+		4630B4F0E9D4849A8E6A21997F255998 /* Pods-Nibbable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC2803ACBDDB3641E00F97630C2BAF7 /* Pods-Nibbable_Example-dummy.m */; };
+		5D53C4DED120D3FD251352CBED4A5EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		846FAE599BD895120A72AA5593F718E9 /* LifecycleableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF951FA32794C838B479CE781CE93F0D /* LifecycleableView.swift */; };
+		84FBCB5D963EF77D89CEEB62DB1DF9D5 /* Nibbable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F1AF6CFF675CBCA0FE70D2C8F87880 /* Nibbable-dummy.m */; };
+		A838C11487099CD2A9200405820E9E80 /* NibInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201578CF3FEB46A747ECC3952CC732C /* NibInstantiable.swift */; };
+		C0CFB0DCEE55CA96C784AABF4B4A8A31 /* Nibbable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFAEB9117458C261240224D3EA094EB6 /* Nibbable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC4ABB20B727E989B717E7A12F687B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FB9227CD4370CEF10FE82D5CF61E2044 /* NibVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F363507EF6DA4869DFC3A504059E205C /* NibVIewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		537FB62CBEB97F0315F805FA14C68A26 /* PBXContainerItemProxy */ = {
+		BBB6EC0B594D856475606862BA49C0C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E4FB514BE8F03307C09945550CC9F1A;
-			remoteInfo = nibbable;
+			remoteGlobalIDString = EAD0F17986EBB011838515BB0B72760F;
+			remoteInfo = Nibbable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05C76DD544F23ABA34693815A78738BB /* Pods-nibbable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nibbable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		07E2E961D952BAE000E67A186AE17BE6 /* Pods-nibbable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nibbable_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0B6A71324C0EBD59FF70037AFFF47306 /* nibbable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nibbable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A400277B7E0CF93AA9C5DAE95DB648 /* Pods_nibbable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nibbable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2853E1D2FDF05A8EC7636BACFEE65245 /* Pods-nibbable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nibbable_Example.modulemap"; sourceTree = "<group>"; };
-		3335C0BB68FD0FDFD14200E91FE41192 /* Pods-nibbable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nibbable_Example-resources.sh"; sourceTree = "<group>"; };
-		404F65114AF1E654C3FB01F4C912DDF9 /* Pods-nibbable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nibbable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4DFEA23D8C35E113E656F59672A7C946 /* Pods-nibbable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nibbable_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0AC2803ACBDDB3641E00F97630C2BAF7 /* Pods-Nibbable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nibbable_Example-dummy.m"; sourceTree = "<group>"; };
+		12DBA19558EE2CB88E0EFF9384CD40F6 /* Nibbable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nibbable-prefix.pch"; sourceTree = "<group>"; };
+		26CA5818E7C2857DD35F2062208D27E4 /* Pods-Nibbable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Nibbable_Tests.modulemap"; sourceTree = "<group>"; };
+		38C50D8A7A0614CAB91EA015FB9B98D0 /* Pods-Nibbable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nibbable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45E361CC015F9D202F68EEB8C9292628 /* Pods-Nibbable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nibbable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4B854B31B52CE7F0A484CF1DD76D30F5 /* Pods-Nibbable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nibbable_Example-umbrella.h"; sourceTree = "<group>"; };
+		58FF1BEF687B640DC61ACFA35CF1304E /* Nibbable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nibbable.modulemap; sourceTree = "<group>"; };
+		610F24499FE9A5DD49E570CD76C7CFC1 /* Pods-Nibbable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nibbable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6EE0BDB8302E3209D26FDA1039A1BAF8 /* nibbable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nibbable-dummy.m"; sourceTree = "<group>"; };
-		7D4BA2BB1F8BF569E8BA2EDE376AA182 /* Pods-nibbable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nibbable_Tests-resources.sh"; sourceTree = "<group>"; };
-		7EAA649EBADE4964F34A45D6CD713B27 /* nibbable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nibbable-umbrella.h"; sourceTree = "<group>"; };
-		832F2043CA267553439EA03AEC95636C /* Pods_nibbable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nibbable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		852449531C873785839FBBF888F467B1 /* Pods-nibbable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nibbable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8650F13E810F751B99F048D4631B703F /* nibbable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nibbable.xcconfig; sourceTree = "<group>"; };
+		6DEC5C4B9B28704204D962B7B1A66400 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA5795C1837AE87D58E7F4E70AFFA6F /* Nibbable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nibbable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB17235D9A469EF6633137ABB4887B7 /* Pods-Nibbable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nibbable_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8201578CF3FEB46A747ECC3952CC732C /* NibInstantiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibInstantiable.swift; path = nibbable/Classes/NibInstantiable.swift; sourceTree = "<group>"; };
+		831F0509C4BA33FE086A44A7E18CC55A /* Pods-Nibbable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nibbable_Tests-dummy.m"; sourceTree = "<group>"; };
+		83EAD301F9D191D5523446FA6CBB4A1F /* Pods_Nibbable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibbable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8407F45500B55EE0C1BE9D4EFAB95AEB /* Nibbable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nibbable.xcconfig; sourceTree = "<group>"; };
+		845057487BF32F3CB73D6D2FDFDFAFF2 /* Pods-Nibbable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nibbable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		86B8BD103BE3F47BAFC689ECCFEB0CB3 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = nibbable/Classes/NibView.swift; sourceTree = "<group>"; };
+		915E9158A1047B8AD81ECA03947D1699 /* Pods-Nibbable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nibbable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95D5D84C203BC7031109DB21D47CED33 /* nibbable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = nibbable.modulemap; sourceTree = "<group>"; };
-		97F325CC328A4728EECCF6233788C53D /* Pods-nibbable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nibbable_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A2B5F295E0C4B37198D0A4B1723E6249 /* nibbable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nibbable-prefix.pch"; sourceTree = "<group>"; };
-		A550664557DFEFABD7A71D3DED931620 /* Pods-nibbable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nibbable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B7427AE335D615067030990221CE6CA9 /* Pods-nibbable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nibbable_Example-umbrella.h"; sourceTree = "<group>"; };
-		B8E144117418F9477E5D5EC070F2D95C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4DF622D1A3FA20319F7A1B1B2908895 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDDCD4C0CDFF6BA65E767710A72ED724 /* Pods-nibbable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nibbable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7AB8403A99749B488F594C399D93B01 /* Pods-nibbable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nibbable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D8EA6526C4E624B6E1B465C2FF8EE9D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9B4BD074D9AF6BF769BF1EF187D1388 /* Pods-nibbable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nibbable_Tests.modulemap"; sourceTree = "<group>"; };
-		DCB9790CF8CC143F933C0402BC231DF6 /* Pods-nibbable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nibbable_Example-dummy.m"; sourceTree = "<group>"; };
-		DE195F8C15F1832FCED0E896D08A9AC7 /* Pods-nibbable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nibbable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F4D5D19A55ABB2C728E5E3AC9181D7C8 /* Pods-nibbable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nibbable_Tests-dummy.m"; sourceTree = "<group>"; };
-		F7C7DA83DC742D4BDBEDD8D0E84CB664 /* Pods-nibbable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nibbable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A743F8FA1962A9A1011736C7CC408538 /* Pods_Nibbable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibbable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96B8DE15E4FA15308BB8E53F107A9A5 /* Pods-Nibbable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nibbable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCF98FEB9EC5A39C92E59924FE246974 /* Pods-Nibbable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nibbable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C179F054F3D3A887D1CFFBB95194FEB3 /* Pods-Nibbable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nibbable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C8730F55763ADD469E76D5C65751F704 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F1AF6CFF675CBCA0FE70D2C8F87880 /* Nibbable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nibbable-dummy.m"; sourceTree = "<group>"; };
+		CAC0FB9ADA5968F08CCACDE3F8636300 /* Pods-Nibbable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nibbable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF951FA32794C838B479CE781CE93F0D /* LifecycleableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LifecycleableView.swift; path = nibbable/Classes/LifecycleableView.swift; sourceTree = "<group>"; };
+		D0A1AAF46A4659C5BFB456C44693AD9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAEB9117458C261240224D3EA094EB6 /* Nibbable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nibbable-umbrella.h"; sourceTree = "<group>"; };
+		E27FE3BF65119D567536A92F65BB6AA5 /* Pods-Nibbable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nibbable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F363507EF6DA4869DFC3A504059E205C /* NibVIewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibVIewController.swift; path = nibbable/Classes/NibVIewController.swift; sourceTree = "<group>"; };
+		F965D365BD8F36BF3725121440401085 /* Pods-Nibbable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nibbable_Example-resources.sh"; sourceTree = "<group>"; };
+		FB4019D45FD6FF622C6954537001E753 /* Pods-Nibbable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nibbable_Tests-resources.sh"; sourceTree = "<group>"; };
+		FCB8E0B83BE6CD43E0E1EDC767DC3875 /* Pods-Nibbable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Nibbable_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ABB9AC37CA6E3ED5D765FB5ACB6CFDAE /* Frameworks */ = {
+		635511091946D1B6104198A8DC53D535 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				423375F9C34A4C26354C1C1DDE317810 /* Foundation.framework in Frameworks */,
+				5D53C4DED120D3FD251352CBED4A5EEA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4F221D9E5172C69A9313F4A590EC0BF /* Frameworks */ = {
+		6E36D40CAF7A83B71505AC127330EAAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45637CD6AD26ECEF51E9E2FB84239F6 /* Foundation.framework in Frameworks */,
+				CC4ABB20B727E989B717E7A12F687B50 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4FEFD39E843D986C4D3430ABC9EC0A7 /* Frameworks */ = {
+		7575F6BAA3D5E94B82C4FBBDFC50AEAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A32605ECCC7AD65E2D9BB0BA44CC38 /* Foundation.framework in Frameworks */,
+				3DE060CD691656654AF3027C390E3B7C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10C24604A16E9126938566FC046D13D7 /* Products */ = {
+		19DC591637DB58347A174DA405D27C11 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B6A71324C0EBD59FF70037AFFF47306 /* nibbable.framework */,
-				832F2043CA267553439EA03AEC95636C /* Pods_nibbable_Example.framework */,
-				26A400277B7E0CF93AA9C5DAE95DB648 /* Pods_nibbable_Tests.framework */,
+				6E1AD6542035FAEBB9964482A8943507 /* Nibbable */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3DA3A2A67B9AD1BB0B25CA217B00F7B8 /* Targets Support Files */ = {
+		2B3F889C74754A52C60F455439EF5EA5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B2AEA6F823F89564B3669E64D5415067 /* Pods-nibbable_Example */,
-				F0D20D77B4A3D0CF19215DAB174C6BB4 /* Pods-nibbable_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		563D883D5C7FAD6CE8218C1B71A23A74 /* nibbable */ = {
-			isa = PBXGroup;
-			children = (
-				68026512661452B477AFCBBD1095312C /* Support Files */,
-			);
-			name = nibbable;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		68026512661452B477AFCBBD1095312C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8EA6526C4E624B6E1B465C2FF8EE9D0 /* Info.plist */,
-				95D5D84C203BC7031109DB21D47CED33 /* nibbable.modulemap */,
-				8650F13E810F751B99F048D4631B703F /* nibbable.xcconfig */,
-				6EE0BDB8302E3209D26FDA1039A1BAF8 /* nibbable-dummy.m */,
-				A2B5F295E0C4B37198D0A4B1723E6249 /* nibbable-prefix.pch */,
-				7EAA649EBADE4964F34A45D6CD713B27 /* nibbable-umbrella.h */,
+				D0A1AAF46A4659C5BFB456C44693AD9E /* Info.plist */,
+				58FF1BEF687B640DC61ACFA35CF1304E /* Nibbable.modulemap */,
+				8407F45500B55EE0C1BE9D4EFAB95AEB /* Nibbable.xcconfig */,
+				C9F1AF6CFF675CBCA0FE70D2C8F87880 /* Nibbable-dummy.m */,
+				12DBA19558EE2CB88E0EFF9384CD40F6 /* Nibbable-prefix.pch */,
+				DFAEB9117458C261240224D3EA094EB6 /* Nibbable-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/nibbable";
+			path = "Example/Pods/Target Support Files/Nibbable";
+			sourceTree = "<group>";
+		};
+		6E1AD6542035FAEBB9964482A8943507 /* Nibbable */ = {
+			isa = PBXGroup;
+			children = (
+				CF951FA32794C838B479CE781CE93F0D /* LifecycleableView.swift */,
+				8201578CF3FEB46A747ECC3952CC732C /* NibInstantiable.swift */,
+				86B8BD103BE3F47BAFC689ECCFEB0CB3 /* NibView.swift */,
+				F363507EF6DA4869DFC3A504059E205C /* NibVIewController.swift */,
+				2B3F889C74754A52C60F455439EF5EA5 /* Support Files */,
+			);
+			name = Nibbable;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7F7046769DC7B0A85D84143EE97192FE /* Development Pods */,
+				19DC591637DB58347A174DA405D27C11 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				10C24604A16E9126938566FC046D13D7 /* Products */,
-				3DA3A2A67B9AD1BB0B25CA217B00F7B8 /* Targets Support Files */,
+				F4FE0800EDC8CC57F427C01D2CE4A71B /* Products */,
+				8E48A5A6161BB83736CB2AD5932830D4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F7046769DC7B0A85D84143EE97192FE /* Development Pods */ = {
+		8E48A5A6161BB83736CB2AD5932830D4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				563D883D5C7FAD6CE8218C1B71A23A74 /* nibbable */,
+				C010D236AE12FAA975151EC3D8596E18 /* Pods-Nibbable_Example */,
+				DB13492705C0B5577081B4393FED56D4 /* Pods-Nibbable_Tests */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B2AEA6F823F89564B3669E64D5415067 /* Pods-nibbable_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C4DF622D1A3FA20319F7A1B1B2908895 /* Info.plist */,
-				2853E1D2FDF05A8EC7636BACFEE65245 /* Pods-nibbable_Example.modulemap */,
-				CDDCD4C0CDFF6BA65E767710A72ED724 /* Pods-nibbable_Example-acknowledgements.markdown */,
-				852449531C873785839FBBF888F467B1 /* Pods-nibbable_Example-acknowledgements.plist */,
-				DCB9790CF8CC143F933C0402BC231DF6 /* Pods-nibbable_Example-dummy.m */,
-				D7AB8403A99749B488F594C399D93B01 /* Pods-nibbable_Example-frameworks.sh */,
-				3335C0BB68FD0FDFD14200E91FE41192 /* Pods-nibbable_Example-resources.sh */,
-				B7427AE335D615067030990221CE6CA9 /* Pods-nibbable_Example-umbrella.h */,
-				97F325CC328A4728EECCF6233788C53D /* Pods-nibbable_Example.debug.xcconfig */,
-				A550664557DFEFABD7A71D3DED931620 /* Pods-nibbable_Example.release.xcconfig */,
-			);
-			name = "Pods-nibbable_Example";
-			path = "Target Support Files/Pods-nibbable_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -177,6 +161,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C010D236AE12FAA975151EC3D8596E18 /* Pods-Nibbable_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C8730F55763ADD469E76D5C65751F704 /* Info.plist */,
+				FCB8E0B83BE6CD43E0E1EDC767DC3875 /* Pods-Nibbable_Example.modulemap */,
+				38C50D8A7A0614CAB91EA015FB9B98D0 /* Pods-Nibbable_Example-acknowledgements.markdown */,
+				CAC0FB9ADA5968F08CCACDE3F8636300 /* Pods-Nibbable_Example-acknowledgements.plist */,
+				0AC2803ACBDDB3641E00F97630C2BAF7 /* Pods-Nibbable_Example-dummy.m */,
+				845057487BF32F3CB73D6D2FDFDFAFF2 /* Pods-Nibbable_Example-frameworks.sh */,
+				F965D365BD8F36BF3725121440401085 /* Pods-Nibbable_Example-resources.sh */,
+				4B854B31B52CE7F0A484CF1DD76D30F5 /* Pods-Nibbable_Example-umbrella.h */,
+				45E361CC015F9D202F68EEB8C9292628 /* Pods-Nibbable_Example.debug.xcconfig */,
+				BCF98FEB9EC5A39C92E59924FE246974 /* Pods-Nibbable_Example.release.xcconfig */,
+			);
+			name = "Pods-Nibbable_Example";
+			path = "Target Support Files/Pods-Nibbable_Example";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,104 +187,114 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F0D20D77B4A3D0CF19215DAB174C6BB4 /* Pods-nibbable_Tests */ = {
+		DB13492705C0B5577081B4393FED56D4 /* Pods-Nibbable_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B8E144117418F9477E5D5EC070F2D95C /* Info.plist */,
-				D9B4BD074D9AF6BF769BF1EF187D1388 /* Pods-nibbable_Tests.modulemap */,
-				DE195F8C15F1832FCED0E896D08A9AC7 /* Pods-nibbable_Tests-acknowledgements.markdown */,
-				F7C7DA83DC742D4BDBEDD8D0E84CB664 /* Pods-nibbable_Tests-acknowledgements.plist */,
-				F4D5D19A55ABB2C728E5E3AC9181D7C8 /* Pods-nibbable_Tests-dummy.m */,
-				4DFEA23D8C35E113E656F59672A7C946 /* Pods-nibbable_Tests-frameworks.sh */,
-				7D4BA2BB1F8BF569E8BA2EDE376AA182 /* Pods-nibbable_Tests-resources.sh */,
-				07E2E961D952BAE000E67A186AE17BE6 /* Pods-nibbable_Tests-umbrella.h */,
-				404F65114AF1E654C3FB01F4C912DDF9 /* Pods-nibbable_Tests.debug.xcconfig */,
-				05C76DD544F23ABA34693815A78738BB /* Pods-nibbable_Tests.release.xcconfig */,
+				6DEC5C4B9B28704204D962B7B1A66400 /* Info.plist */,
+				26CA5818E7C2857DD35F2062208D27E4 /* Pods-Nibbable_Tests.modulemap */,
+				915E9158A1047B8AD81ECA03947D1699 /* Pods-Nibbable_Tests-acknowledgements.markdown */,
+				A96B8DE15E4FA15308BB8E53F107A9A5 /* Pods-Nibbable_Tests-acknowledgements.plist */,
+				831F0509C4BA33FE086A44A7E18CC55A /* Pods-Nibbable_Tests-dummy.m */,
+				7FB17235D9A469EF6633137ABB4887B7 /* Pods-Nibbable_Tests-frameworks.sh */,
+				FB4019D45FD6FF622C6954537001E753 /* Pods-Nibbable_Tests-resources.sh */,
+				610F24499FE9A5DD49E570CD76C7CFC1 /* Pods-Nibbable_Tests-umbrella.h */,
+				E27FE3BF65119D567536A92F65BB6AA5 /* Pods-Nibbable_Tests.debug.xcconfig */,
+				C179F054F3D3A887D1CFFBB95194FEB3 /* Pods-Nibbable_Tests.release.xcconfig */,
 			);
-			name = "Pods-nibbable_Tests";
-			path = "Target Support Files/Pods-nibbable_Tests";
+			name = "Pods-Nibbable_Tests";
+			path = "Target Support Files/Pods-Nibbable_Tests";
+			sourceTree = "<group>";
+		};
+		F4FE0800EDC8CC57F427C01D2CE4A71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA5795C1837AE87D58E7F4E70AFFA6F /* Nibbable.framework */,
+				83EAD301F9D191D5523446FA6CBB4A1F /* Pods_Nibbable_Example.framework */,
+				A743F8FA1962A9A1011736C7CC408538 /* Pods_Nibbable_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		225DD87FE8523B54B719D6098B8E9744 /* Headers */ = {
+		2BEE0765608C835EAA455EAE38930D4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36AB712E14E15657AE0EA23681C6EDDC /* nibbable-umbrella.h in Headers */,
+				0F4842ABFEC0011CE244ED9B70AE551B /* Pods-Nibbable_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F41F2F1839227929A28577B9E39C573 /* Headers */ = {
+		ABB6CE1768258322E1E1921F88883159 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB69C668BC76DAC730F4BA5D57CE4B94 /* Pods-nibbable_Example-umbrella.h in Headers */,
+				3B6C82484B6FB40C92B392E10EF7ADEC /* Pods-Nibbable_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9437D034EA8F98EC912E685833C41C0C /* Headers */ = {
+		B44EEA37BD47F06788D5A98E7633BB7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2472F699F037CE8BB484AA04FD3FF7 /* Pods-nibbable_Tests-umbrella.h in Headers */,
+				C0CFB0DCEE55CA96C784AABF4B4A8A31 /* Nibbable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7E4FB514BE8F03307C09945550CC9F1A /* nibbable */ = {
+		01DEFA940C4D2D19786F326F81E3FAAD /* Pods-Nibbable_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8234AA566CB14CAC2E7DB3490AAF337E /* Build configuration list for PBXNativeTarget "nibbable" */;
+			buildConfigurationList = 07CC9503FCB96C4C32AC537A05B33060 /* Build configuration list for PBXNativeTarget "Pods-Nibbable_Example" */;
 			buildPhases = (
-				BEF88B0E5B8A78536212E782FBA04D73 /* Sources */,
-				E4FEFD39E843D986C4D3430ABC9EC0A7 /* Frameworks */,
-				225DD87FE8523B54B719D6098B8E9744 /* Headers */,
+				FDA071B0DDC780D9E39DC67312AB6D41 /* Sources */,
+				635511091946D1B6104198A8DC53D535 /* Frameworks */,
+				ABB6CE1768258322E1E1921F88883159 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EB6874B8748A6EBE9F72F3BBDA19BCCA /* PBXTargetDependency */,
 			);
-			name = nibbable;
-			productName = nibbable;
-			productReference = 0B6A71324C0EBD59FF70037AFFF47306 /* nibbable.framework */;
+			name = "Pods-Nibbable_Example";
+			productName = "Pods-Nibbable_Example";
+			productReference = 83EAD301F9D191D5523446FA6CBB4A1F /* Pods_Nibbable_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AB1A90CDDC1B0A0F2641997C389EFF03 /* Pods-nibbable_Tests */ = {
+		B3E1BE6A79AF575D9A4B6ABDA05F4863 /* Pods-Nibbable_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF079CBEB246DDDD9BE6AE77D42CC06F /* Build configuration list for PBXNativeTarget "Pods-nibbable_Tests" */;
+			buildConfigurationList = 3FDFEDA06034EBE4463F8526E9F23E35 /* Build configuration list for PBXNativeTarget "Pods-Nibbable_Tests" */;
 			buildPhases = (
-				5ADE09A0154B19678C6E4CFD79407445 /* Sources */,
-				ABB9AC37CA6E3ED5D765FB5ACB6CFDAE /* Frameworks */,
-				9437D034EA8F98EC912E685833C41C0C /* Headers */,
+				D5FF3967490BDBB083B0C4350CC75686 /* Sources */,
+				6E36D40CAF7A83B71505AC127330EAAD /* Frameworks */,
+				2BEE0765608C835EAA455EAE38930D4F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-nibbable_Tests";
-			productName = "Pods-nibbable_Tests";
-			productReference = 26A400277B7E0CF93AA9C5DAE95DB648 /* Pods_nibbable_Tests.framework */;
+			name = "Pods-Nibbable_Tests";
+			productName = "Pods-Nibbable_Tests";
+			productReference = A743F8FA1962A9A1011736C7CC408538 /* Pods_Nibbable_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE8681219405BA4590B4EAA8EC504E11 /* Pods-nibbable_Example */ = {
+		EAD0F17986EBB011838515BB0B72760F /* Nibbable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAEF57B0AA05DE6690085ADFDAC2C063 /* Build configuration list for PBXNativeTarget "Pods-nibbable_Example" */;
+			buildConfigurationList = A1627CE2DBFA25575FFE0458A9358CB7 /* Build configuration list for PBXNativeTarget "Nibbable" */;
 			buildPhases = (
-				49C645CF112ECB2ABF56A458A21C9E9F /* Sources */,
-				D4F221D9E5172C69A9313F4A590EC0BF /* Frameworks */,
-				8F41F2F1839227929A28577B9E39C573 /* Headers */,
+				6CBF52F7FDA091B9F402AA170FB025FC /* Sources */,
+				7575F6BAA3D5E94B82C4FBBDFC50AEAC /* Frameworks */,
+				B44EEA37BD47F06788D5A98E7633BB7C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				834D5DEEF30D4FCD095867F13BD8014D /* PBXTargetDependency */,
 			);
-			name = "Pods-nibbable_Example";
-			productName = "Pods-nibbable_Example";
-			productReference = 832F2043CA267553439EA03AEC95636C /* Pods_nibbable_Example.framework */;
+			name = Nibbable;
+			productName = Nibbable;
+			productReference = 7FA5795C1837AE87D58E7F4E70AFFA6F /* Nibbable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -302,57 +314,61 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 10C24604A16E9126938566FC046D13D7 /* Products */;
+			productRefGroup = F4FE0800EDC8CC57F427C01D2CE4A71B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E4FB514BE8F03307C09945550CC9F1A /* nibbable */,
-				BE8681219405BA4590B4EAA8EC504E11 /* Pods-nibbable_Example */,
-				AB1A90CDDC1B0A0F2641997C389EFF03 /* Pods-nibbable_Tests */,
+				EAD0F17986EBB011838515BB0B72760F /* Nibbable */,
+				01DEFA940C4D2D19786F326F81E3FAAD /* Pods-Nibbable_Example */,
+				B3E1BE6A79AF575D9A4B6ABDA05F4863 /* Pods-Nibbable_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49C645CF112ECB2ABF56A458A21C9E9F /* Sources */ = {
+		6CBF52F7FDA091B9F402AA170FB025FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5793AEB655047EBE70D701B93660B5D4 /* Pods-nibbable_Example-dummy.m in Sources */,
+				846FAE599BD895120A72AA5593F718E9 /* LifecycleableView.swift in Sources */,
+				84FBCB5D963EF77D89CEEB62DB1DF9D5 /* Nibbable-dummy.m in Sources */,
+				A838C11487099CD2A9200405820E9E80 /* NibInstantiable.swift in Sources */,
+				41C5B1DD54039178E918FF2ED9F606D0 /* NibView.swift in Sources */,
+				FB9227CD4370CEF10FE82D5CF61E2044 /* NibVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ADE09A0154B19678C6E4CFD79407445 /* Sources */ = {
+		D5FF3967490BDBB083B0C4350CC75686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EC1A199584C92EAB7558226F5B8F09 /* Pods-nibbable_Tests-dummy.m in Sources */,
+				3F048C18B60B980E6BCFAC7CB65D1ABC /* Pods-Nibbable_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEF88B0E5B8A78536212E782FBA04D73 /* Sources */ = {
+		FDA071B0DDC780D9E39DC67312AB6D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52551EEE958EF12F2A28CE7D46C5891F /* nibbable-dummy.m in Sources */,
+				4630B4F0E9D4849A8E6A21997F255998 /* Pods-Nibbable_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		834D5DEEF30D4FCD095867F13BD8014D /* PBXTargetDependency */ = {
+		EB6874B8748A6EBE9F72F3BBDA19BCCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = nibbable;
-			target = 7E4FB514BE8F03307C09945550CC9F1A /* nibbable */;
-			targetProxy = 537FB62CBEB97F0315F805FA14C68A26 /* PBXContainerItemProxy */;
+			name = Nibbable;
+			target = EAD0F17986EBB011838515BB0B72760F /* Nibbable */;
+			targetProxy = BBB6EC0B594D856475606862BA49C0C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		293B31DFE7A8F7DEE33958D1495DA2FC /* Debug */ = {
+		11C5ACB354F2B32B9B6FA301FB771851 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8650F13E810F751B99F048D4631B703F /* nibbable.xcconfig */;
+			baseConfigurationReference = 45E361CC015F9D202F68EEB8C9292628 /* Pods-Nibbable_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -366,53 +382,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/nibbable/nibbable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nibbable/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nibbable_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nibbable/nibbable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = nibbable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E17D06CE77A7BD40E67D2F5BA5CBDCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97F325CC328A4728EECCF6233788C53D /* Pods-nibbable_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nibbable_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nibbable_Example/Pods-nibbable_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Nibbable_Example/Pods-Nibbable_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_nibbable_Example;
+				PRODUCT_NAME = Pods_Nibbable_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -424,9 +405,9 @@
 			};
 			name = Debug;
 		};
-		3CB373FF4536749FC0756F126222D7C0 /* Release */ = {
+		14D5E799DC10D2B0664E7A23BC648894 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8650F13E810F751B99F048D4631B703F /* nibbable.xcconfig */;
+			baseConfigurationReference = BCF98FEB9EC5A39C92E59924FE246974 /* Pods-Nibbable_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -440,17 +421,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/nibbable/nibbable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nibbable/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nibbable_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nibbable/nibbable.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nibbable_Example/Pods-Nibbable_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = nibbable;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nibbable_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,9 +443,9 @@
 			};
 			name = Release;
 		};
-		65A20497421482F1E743DA319D9223D1 /* Debug */ = {
+		4FA56678692730D96129ABC0E63A5624 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 404F65114AF1E654C3FB01F4C912DDF9 /* Pods-nibbable_Tests.debug.xcconfig */;
+			baseConfigurationReference = 8407F45500B55EE0C1BE9D4EFAB95AEB /* Nibbable.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -475,118 +459,26 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nibbable_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Nibbable/Nibbable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nibbable/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nibbable_Tests/Pods-nibbable_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Nibbable/Nibbable.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_nibbable_Tests;
+				PRODUCT_NAME = Nibbable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		662BB1B933D1B0EB3D758348ED8F74FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A550664557DFEFABD7A71D3DED931620 /* Pods-nibbable_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nibbable_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nibbable_Example/Pods-nibbable_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_nibbable_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -634,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -643,9 +535,9 @@
 			};
 			name = Debug;
 		};
-		F5FB4E4BCCBA4FABA10FE518310018A6 /* Release */ = {
+		B7ADD057CE8436910E6E3043DC38C19B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05C76DD544F23ABA34693815A78738BB /* Pods-nibbable_Tests.release.xcconfig */;
+			baseConfigurationReference = C179F054F3D3A887D1CFFBB95194FEB3 /* Pods-Nibbable_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -659,18 +551,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nibbable_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nibbable_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-nibbable_Tests/Pods-nibbable_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Nibbable_Tests/Pods-Nibbable_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_nibbable_Tests;
+				PRODUCT_NAME = Pods_Nibbable_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -679,41 +571,165 @@
 			};
 			name = Release;
 		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2A0D67272E4195952C2CD43B9BC971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8407F45500B55EE0C1BE9D4EFAB95AEB /* Nibbable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Nibbable/Nibbable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nibbable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nibbable/Nibbable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nibbable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD6D9DE652A80D938717DAFC706994D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27FE3BF65119D567536A92F65BB6AA5 /* Pods-Nibbable_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Nibbable_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nibbable_Tests/Pods-Nibbable_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nibbable_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07CC9503FCB96C4C32AC537A05B33060 /* Build configuration list for PBXNativeTarget "Pods-Nibbable_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C5ACB354F2B32B9B6FA301FB771851 /* Debug */,
+				14D5E799DC10D2B0664E7A23BC648894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8234AA566CB14CAC2E7DB3490AAF337E /* Build configuration list for PBXNativeTarget "nibbable" */ = {
+		3FDFEDA06034EBE4463F8526E9F23E35 /* Build configuration list for PBXNativeTarget "Pods-Nibbable_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				293B31DFE7A8F7DEE33958D1495DA2FC /* Debug */,
-				3CB373FF4536749FC0756F126222D7C0 /* Release */,
+				FD6D9DE652A80D938717DAFC706994D0 /* Debug */,
+				B7ADD057CE8436910E6E3043DC38C19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAEF57B0AA05DE6690085ADFDAC2C063 /* Build configuration list for PBXNativeTarget "Pods-nibbable_Example" */ = {
+		A1627CE2DBFA25575FFE0458A9358CB7 /* Build configuration list for PBXNativeTarget "Nibbable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E17D06CE77A7BD40E67D2F5BA5CBDCB /* Debug */,
-				662BB1B933D1B0EB3D758348ED8F74FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF079CBEB246DDDD9BE6AE77D42CC06F /* Build configuration list for PBXNativeTarget "Pods-nibbable_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65A20497421482F1E743DA319D9223D1 /* Debug */,
-				F5FB4E4BCCBA4FABA10FE518310018A6 /* Release */,
+				4FA56678692730D96129ABC0E63A5624 /* Debug */,
+				CA2A0D67272E4195952C2CD43B9BC971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_nibbable_Tests : NSObject
+@interface PodsDummy_Pods_Nibbable_Tests : NSObject
 @end
-@implementation PodsDummy_Pods_nibbable_Tests
+@implementation PodsDummy_Pods_Nibbable_Tests
 @end

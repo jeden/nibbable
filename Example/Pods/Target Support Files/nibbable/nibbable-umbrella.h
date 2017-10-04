@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double nibbableVersionNumber;
-FOUNDATION_EXPORT const unsigned char nibbableVersionString[];
+FOUNDATION_EXPORT double NibbableVersionNumber;
+FOUNDATION_EXPORT const unsigned char NibbableVersionString[];
 

@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import nibbable
+import Nibbable
 
 class Tests: XCTestCase {
     

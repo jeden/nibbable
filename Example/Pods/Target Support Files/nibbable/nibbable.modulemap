@@ -1,5 +1,5 @@
-framework module nibbable {
-  umbrella header "nibbable-umbrella.h"
+framework module Nibbable {
+  umbrella header "Nibbable-umbrella.h"
 
   export *
   module * { export * }
