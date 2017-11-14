@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		15E1094654DD740C0E5B2EED /* Pods_Nibbable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8C2AFEA2B6E89FBA19AEB3 /* Pods_Nibbable_Example.framework */; };
 		3FBDD24D17F2DAFD978471BC /* Pods_nibbable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F746A693FE2F2DD1BE7CC211 /* Pods_nibbable_Tests.framework */; };
+		576FFDD21F84ED89006CCBD0 /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576FFDD11F84ED89006CCBD0 /* SimpleView.swift */; };
+		576FFDD51F84EDA4006CCBD0 /* SimpleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576FFDD41F84EDA4006CCBD0 /* SimpleView.xib */; };
+		576FFDD71F84EDC3006CCBD0 /* NibbedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576FFDD61F84EDC3006CCBD0 /* NibbedViewController.swift */; };
+		576FFDDA1F84EDF3006CCBD0 /* NibbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576FFDD91F84EDF3006CCBD0 /* NibbedView.swift */; };
+		576FFDDC1F84EDFC006CCBD0 /* NibbedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576FFDDB1F84EDFC006CCBD0 /* NibbedView.xib */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* SimpleViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -34,11 +39,16 @@
 		237018CA3C272F3BDDC75123 /* Pods_Nibbable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nibbable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFFA4E66B6696F634CE8888 /* Pods-nibbable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibbable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-nibbable_Example/Pods-nibbable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		536C0E90BD9974203C2E6846 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		576FFDD11F84ED89006CCBD0 /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
+		576FFDD41F84EDA4006CCBD0 /* SimpleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleView.xib; sourceTree = "<group>"; };
+		576FFDD61F84EDC3006CCBD0 /* NibbedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibbedViewController.swift; sourceTree = "<group>"; };
+		576FFDD91F84EDF3006CCBD0 /* NibbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibbedView.swift; sourceTree = "<group>"; };
+		576FFDDB1F84EDFC006CCBD0 /* NibbedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibbedView.xib; sourceTree = "<group>"; };
 		5BBBAAE4E32D74B540D7C321 /* Pods-nibbable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibbable_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nibbable_Tests/Pods-nibbable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Nibbable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nibbable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -79,6 +89,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		576FFDD81F84EDD5006CCBD0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACD71AFB9204008FA782 /* SimpleViewController.swift */,
+				576FFDD11F84ED89006CCBD0 /* SimpleView.swift */,
+				576FFDD41F84EDA4006CCBD0 /* SimpleView.xib */,
+				576FFDD61F84EDC3006CCBD0 /* NibbedViewController.swift */,
+				576FFDD91F84EDF3006CCBD0 /* NibbedView.swift */,
+				576FFDDB1F84EDFC006CCBD0 /* NibbedView.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +127,8 @@
 		607FACD21AFB9204008FA782 /* Example for nibbable */ = {
 			isa = PBXGroup;
 			children = (
+				576FFDD81F84EDD5006CCBD0 /* UI */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -264,9 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576FFDD51F84EDA4006CCBD0 /* SimpleView.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				576FFDDC1F84EDFC006CCBD0 /* NibbedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +411,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				576FFDD71F84EDC3006CCBD0 /* NibbedViewController.swift in Sources */,
+				576FFDDA1F84EDF3006CCBD0 /* NibbedView.swift in Sources */,
+				607FACD81AFB9204008FA782 /* SimpleViewController.swift in Sources */,
+				576FFDD21F84ED89006CCBD0 /* SimpleView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
