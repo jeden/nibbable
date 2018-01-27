@@ -29,6 +29,42 @@ open class NibView : UIView {
 		}
 
 		let view = instanceFromNib()
+
+		// Transfer the new view to the superview
+		let superview = self.superview
+		removeFromSuperview()
+		superview?.addSubview(view)
+
+		// Copy constraints over
+		let constraints: [NSLayoutConstraint] = self.constraints.map { constraint in
+            constraint.isActive = false
+            let firstView, secondView: AnyObject?
+            if let constrainedView = constraint.firstItem as? UIView, constrainedView === self {
+                firstView = view
+            } else {
+                firstView = constraint.firstItem
+            }
+
+            if let constrainedView = constraint.secondItem as? UIView, constrainedView === self {
+                secondView = view
+            } else {
+                secondView = constraint.secondItem
+            }
+
+            let newConstraint = NSLayoutConstraint(
+                item: firstView as Any,
+                attribute: constraint.firstAttribute,
+                relatedBy: constraint.relation,
+                toItem: secondView,
+				attribute: constraint.secondAttribute,
+                multiplier: constraint.multiplier,
+                constant: constraint.constant
+            )
+
+			return newConstraint
+        }
+        view.addConstraints(constraints)
+
 		return view
 	}
 }
