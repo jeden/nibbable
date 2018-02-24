@@ -30,6 +30,8 @@ open class NibView : UIView {
 
 		let view = instanceFromNib()
 
+        view.translatesAutoresizingMaskIntoConstraints = self.translatesAutoresizingMaskIntoConstraints
+        
 		// Transfer the new view to the superview
 		let superview = self.superview
 		removeFromSuperview()
