@@ -55,7 +55,7 @@ extension UIView : LifecycleableView {
 	}
 
 	private var lifecycleableViews: [LifecycleableView] {
-		return self.subviews.flatMap { $0 as LifecycleableView }
+		return self.subviews.compactMap { $0 as LifecycleableView }
 	}
 }
 

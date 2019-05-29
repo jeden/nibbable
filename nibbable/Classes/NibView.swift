@@ -79,7 +79,7 @@ private extension Internals {
 		return
 			self.subviews.count == 0 || (
 				self.subviews.count == 2 &&
-				self.subviews.flatMap({ $0.conforms(to: UILayoutSupport.self) ? $0 : nil }).count == 2
+				self.subviews.compactMap({ $0.conforms(to: UILayoutSupport.self) ? $0 : nil }).count == 2
 			)
 	}
 
